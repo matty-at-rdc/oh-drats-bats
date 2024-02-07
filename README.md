@@ -6,7 +6,8 @@ This is the simplest possible way to demonstrate how the `bats` testing tool wor
 
 ## How do I use it?
 
-- `git clone`
+- `git clone --recurse-submodules git@github.com:matty-at-rdc/oh-drats-bats.git`
+- `cd oh-drats-bats`
 - `./test/bats/bin/bats test/test.bats`
 
 
